@@ -89,7 +89,7 @@ public String getLabID()
         return "Lab details :- \n" +
                 " LabID='" + labID + '\'' +
                 "\n Computer Details :- \n" + Arrays.toString(computers) +
-                "\n status = " + status +
+                "\n Status = " + status +
                 "\n " + labAttendant
                 ;
     }

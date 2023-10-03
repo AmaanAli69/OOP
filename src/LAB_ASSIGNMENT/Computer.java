@@ -82,11 +82,11 @@ public class Computer {
 
     public String toString() {
         return "\n" +
-                "Computer Number = '" + computerNumber + '\'' +
-                ", LcdModel = '" + lcdModel + "'" +
-                ", Ram Size = " + ramSize +
-                ", Hdd Size = " + hddSize +
-                ", Has GPU = " + hasGPU
+                " Computer Number = '" + computerNumber + '\'' +
+                "\n LcdModel = '" + lcdModel + "'" +
+                "\n Ram Size = " + ramSize +
+                "\n Hdd Size = " + hddSize +
+                "\n Has GPU = " + hasGPU
                 ;
     }
 }
