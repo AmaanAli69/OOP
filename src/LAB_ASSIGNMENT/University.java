@@ -13,16 +13,25 @@ public class University {
         for (int i = 0; i < labs.length; i++) {
             if (labs[i] == null) {
                 labs[i] = l;
+<<<<<<< HEAD
                 break;
+=======
+>>>>>>> githubb/master
             }
         }
 
     }
 
+<<<<<<< HEAD
     public void removeLab(Lab l) {
         for (int i = 0; i < labs.length; i++) {
             if (labs[i].getLabID().equals(l.getLabID()))
             {
+=======
+    public void removeComputer(Computer c) {
+        for (int i = 0; i < labs.length; i++) {
+            if (labs[i] != null) {
+>>>>>>> githubb/master
                 labs[i] = null;
             }
         }
